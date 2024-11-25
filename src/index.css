@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.medical-btn{
+    @apply py-3 px-[25px] border-[3px] rounded-[20px] text-base font-medium text-white transition-all duration-300
+}
+
+.white-btn{
+    @apply bg-transparent border-white hover:bg-purple-btn-color hover:border-purple-btn-color
+}
+
+.purple-btn{
+    @apply bg-purple-btn-color border-purple-btn-color hover:opacity-70
+}
+
+.block-hidden-parent-styles{
+    @apply opacity-0 invisible absolute top-10 w-52 py-5 px-4 text-black bg-white rounded-lg shadow-md shadow-gray-500 text-base font-normal space-y-3 group-hover:opacity-100 group-hover:visible transition-opacity duration-300 z-10
+}
+
+.block-hidden-child-styles{
+    @apply block text-base font-normal hover:border-b-[4px] hover:border-r-[3px] hover:text-Mos-Purple rounded-lg border-Mos-Purple transition-all duration-100
+}
+
+.hero-btn{
+    @apply text-3xl font-bold text-white h-16 pb-2 px-5 rounded-xl border-[3px] border-Mos-Purple bg-Mos-Purple hover:bg-white hover:text-Mos-Purple transition-all duration-500 hover:shadow-lg hover:shadow-Mos-Purple
+}
+
+.Hero:hover .hero-btn{
+    @apply opacity-100 translate-x-0
+}
+
+.RoyxatdanOtish-Input{
+    @apply w-full pt-1 pb-1.5 px-2.5 mb-6 text-base font-medium text-black/70 border-[1.5px] border-black/40 shadow-sm rounded focus:border-RoyxatdanOtish-Blue-Color focus:shadow-RoyxatdanOtish-Blue-Color outline-none
+}
