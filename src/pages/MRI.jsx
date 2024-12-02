@@ -1,21 +1,49 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Location from '../Location'
+
+import MRI1 from '../img/MRI1.avif'
+import MRI2 from '../img/MRI2.avif'
+import MRI3 from '../img/MRI3.avif'
+import MRI4 from '../img/MRI4.avif'
+import MRI5 from '../img/MRI5.avif'
+import MRI6 from '../img/MRI6.jpg'
 
 const MRI = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
-      
+    }, [])
+
     return (
         <div className='py-7 xl:py-[62px]'>
 
             <div className="w-full max-w-base mx-auto px-5 navHiddenResp:px-7 lg:px-5">
-            <Location />
+                <Location />
 
-                <h2 className='text-3xl md:[37px] lg:text[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>MRI</h2>
+                <h2 className='text-3xl md:text-[37px] lg:text-[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>MRI</h2>
 
-                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI1} alt="MRI1 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI2} alt="MRI2 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI3} alt="MRI3 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI4} alt="MRI4 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI5} alt="MRI5 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI6} alt="MRI6 image" />
+                    </div>
+                </div>
+
+                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-0 lg:mb-16'>
 
                     <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapiradigan va biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 

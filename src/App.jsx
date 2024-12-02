@@ -14,7 +14,7 @@ import BirjaDetail from './pages/BirjaDetail'
 import MutaxassislarDetails from './pages/MutaxassislarDetails'
 import PediatriyaDetails from './pages/PediatriyaDetails'
 import Yangiliklar from './pages/Yangiliklar'
-import BizHaqimizdaSharxlar from './pages/BizHaqimizdaSharxlar'
+import BizXaqimizdaSharxlar from './pages/BizXaqimizdaSharxlar'
 import Kontaktlar from './pages/Kontaktlar'
 import PNF from './pages/PNF'
 import Fotogalareya from './pages/Fotogalareya'
@@ -40,7 +40,6 @@ import AsalKomissiya from './pages/AsalKomissiya'
 import Diagnostikalar from './uyComponent/Diagnostikalar'
 import Mutaxassislar from './uyComponent/Mutaxassislar'
 import NarxlarRoyxatiDetail from './pages/NarxlarRoyxatiDetail'
-import Accardion from './pages/Accardion'
 
 const App = () => {
     const router = createBrowserRouter(
@@ -58,7 +57,7 @@ const App = () => {
                     <Route path='Birja' element={<Birja />} />
                     <Route path='Birja/:name' element={<BirjaDetail />} />
                     <Route path='Yangiliklar' element={<Yangiliklar />} />
-                    <Route path='BizHaqimizdaSharxlar' element={<BizHaqimizdaSharxlar />} />
+                    <Route path='BizXaqimizdaSharxlar' element={<BizXaqimizdaSharxlar />} />
                     <Route path='Kontaktlar' element={<Kontaktlar />} />
                     <Route path='Ginekologiya' element={<Ginekologiya />} />
                     <Route path='Nefrologiya' element={<Nefrologiya />} />
@@ -84,7 +83,6 @@ const App = () => {
                     <Route path='FoydalanuvchiShartnomasi' element={<FoydalanuvchiShartnomasi />} />
                     <Route path='Diagnostikalar' element={<Diagnostikalar />} />
                     <Route path='Mutaxassislar' element={<Mutaxassislar />} />
-                    <Route path='Accardion' element={<Accardion />} />
                 </Route>
                 <Route path='*' element={<PNF />} />
             </>

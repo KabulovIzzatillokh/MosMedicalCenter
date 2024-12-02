@@ -1,21 +1,49 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Location from '../Location'
+
+import Travmatologiya1 from '../img/Travmatologiya1.avif'
+import Travmatologiya2 from '../img/Travmatologiya2.jpg'
+import Travmatologiya3 from '../img/Travmatologiya3.avif'
+import Travmatologiya4 from '../img/Travmatologiya4.jpg'
+import Travmatologiya5 from '../img/Travmatologiya5.avif'
+import Travmatologiya6 from '../img/Travmatologiya6.jpg'
 
 const Travmatologiya = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
     return (
         <div className='py-7 xl:py-[62px]'>
 
             <div className="w-full max-w-base mx-auto px-5 navHiddenResp:px-7 lg:px-5">
-            <Location />
+                <Location />
 
-                <h2 className='text-3xl md:[37px] lg:text[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Travmatologiya</h2>
+                <h2 className='text-3xl md:text-[37px] lg:text-[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Travmatologiya</h2>
 
-                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Travmatologiya1} alt="Travmatologiya1 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Travmatologiya3} alt="Travmatologiya3 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Travmatologiya4} alt="Travmatologiya4 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Travmatologiya5} alt="Travmatologiya5 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Travmatologiya6} alt="Travmatologiya6 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Travmatologiya2} alt="Travmatologiya2 image" />
+                    </div>
+                </div>
+
+                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-0 lg:mb-16'>
 
                     <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapiradigan va biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 

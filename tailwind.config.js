@@ -20,7 +20,7 @@ export default {
         'montserrat': 'Montserrat, sans-serif'
       },
       backgroundImage: {
-        'KompaniyaHaqidaHero-Background': "linear-gradient(180deg, rgba(9, 9, 9, 0.55) 0%, #09161F 1000%), url('./src/img/KompaniyaHaqidaLargeimg.webp')",
+        'KompaniyaHaqidaHero-Background': "linear-gradient(180deg, rgba(9, 9, 9, 0.65) 0%, #09161F 1000%), url('./src/img/KompaniyaHaqidaLargeimg.webp')",
         'PNF-Background': "linear-gradient(180deg, rgba(9, 9, 9, 0.70) 0%, #09161F 1000%), url('./src/img/PNFBackground.webp')",
         'XizmatlarHero': "linear-gradient(180deg, rgba(9, 9, 9, 0.70) 0%, #09161F 1000%), url('./src/img/XizmatlarHero.jpg')",
         'heroImg1': "linear-gradient(180deg, rgba(9, 9, 9, 0.70) 0%, #09161F 1000%), url('./img/heroImg1.jpg')",
@@ -30,10 +30,13 @@ export default {
       screens: {
         'bizhaqdaResp': '1480px',
         'navHiddenResp': '900px',
+        'navBirjaHiddenResp': '1110px',
         'moreHiddenResp': '515px',
         'modalResp': '430px'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/line-clamp'),
+],
 }

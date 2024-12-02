@@ -68,7 +68,7 @@ const KlinikaHaqida = () => {
                             <p className='text-6xl font-bold text-Mos-Purple'>12+</p>
                             <span className='block absolute -top-1 left-12 -z-10 h-7 w-7 bg-Mos-purple-light rounded-lg'></span>
                         </div>
-                        <p className='text-base font-medium text-black/80'>yillar davomida sog'ligingiz uchun xizmat qiladi</p>
+                        <p className='text-base font-medium text-black/80'>yillar davomida sog'ligingiz <br /> uchun xizmat qiladi</p>
                     </div>
 
                     {/* 30+ */}

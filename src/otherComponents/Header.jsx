@@ -71,11 +71,11 @@ const Header = () => {
         <div>
 
           <div className='flex items-center justify-between pt-7 pb-4'>
-            <button onClick={toggleMobileMenu} className='navHiddenResp:hidden mr-4 text-[27px] bg-Mos-Purple pt-1 pb-2 px-4 rounded-xl text-white'>
+            <button onClick={toggleMobileMenu} className='navBirjaHiddenResp:hidden mr-4 text-[27px] bg-Mos-Purple pt-1 pb-2 px-4 rounded-xl text-white'>
               ☰
             </button>
 
-            <Link className='hidden navHiddenResp:flex items-center' to='/'>
+            <Link className='hidden navBirjaHiddenResp:flex items-center' to='/'>
               <img className='h-[72px] w-[70px] rounded-full mr-4' src={MedicalCenterLogo} alt="MedicalCenterLogo" />
 
               <div>
@@ -84,7 +84,7 @@ const Header = () => {
               </div>
             </Link>
 
-            <div className='hidden md:flex items-center'>
+            <div className='hidden md:flex mr-3 items-center'>
               <div className='mr-5 py-1 px-0.5 bg-blue-100 rounded-lg'>
                 <img className='w-5 h-5' src={LocationImage} alt="LocationImage" />
               </div>
@@ -182,7 +182,7 @@ const Header = () => {
 
               </div>
 
-              <button onClick={openModal} className='block navHiddenResp:hidden px-2 py-3 bg-purple-btn-color rounded-2xl'>
+              <button onClick={openModal} className='block navBirjaHiddenResp:hidden px-2 py-3 bg-purple-btn-color rounded-2xl'>
                 <img height='40' width='40' src={phoneICon} alt="phoneICon" />
               </button>
 
@@ -191,48 +191,48 @@ const Header = () => {
 
           {/* Mobile Sidebar Menu */}
           {isMobileMenuOpen && (
-            <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
-              <div className="bg-white w-full max-w-96 h-full px-8 py-10 relative">
-                <button onClick={toggleMobileMenu} className="absolute z-50 top-7 right-9 text-Mos-Purple md:-right-10 text-4xl font-bold md:text-white">×</button>
+            <div className="fixed inset-0 bg-black bg-opacity-50 z-50 pr-10 ">
+              <div className="bg-white w-full max-w-96 h-full px-8 py-10 relative overflow-y-auto">
+                <button onClick={toggleMobileMenu} className="absolute z-50 top-7 right-9 text-Mos-Purple text-4xl font-bold">×</button>
                 <nav>
-                  <ul className="space-y-7 text-lg font-semibold font-montserrat">
-                    <li className='group'><Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/">Uy</Link></li>
+                  <ul className="space-y-7 text-base moreHiddenResp.:text-lg font-semibold font-montserrat">
+                    <li className='group'><Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/">Uy</Link></li>
                     <li className="group relative flex justify-between items-center">
-                      <Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to='/Xizmatlar'>Xizmatlar</Link>
+                      <Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to='/Xizmatlar'>Xizmatlar</Link>
                       <button onClick={toggleDropdown} className="flex items-center space-x-2">
                         <span className="text-base font-bold bg-gray-200 px-2 py-1 rounded-full text-Mos-Purple">▼</span>
                       </button>
                       {isDropdownOpen && (
-                        <ul className="absolute top-7 z-10 left-0 mt-2 py-4 px-5 w-full bg-white shadow-md shadow-Mos-Purple rounded-lg">
-                          <li><Link to="/Ginekologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Ginekologiya</Link></li>
-                          <li><Link to="/Nefrologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Nefrologiya</Link></li>
-                          <li><Link to="/Nevrologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Nevrologiya</Link></li>
-                          <li><Link to="/Kardiologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Kardiologiya</Link></li>
-                          <li><Link to="/Gastroenterologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Gastroenterologiya</Link></li>
-                          <li><Link to="/Otorinolaringologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Otorinolaringologiya</Link></li>
+                        <ul className="absolute top-7 z-50 left-0 mt-2 py-4 px-5 w-full bg-white shadow-md shadow-Mos-Purple rounded-lg">
+                          <li><Link onClick={toggleMobileMenu} to="/Ginekologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Ginekologiya</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Nefrologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Nefrologiya</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Nevrologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Nevrologiya</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Kardiologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Kardiologiya</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Gastroenterologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Gastroenterologiya</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Otorinolaringologiya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Otorinolaringologiya</Link></li>
                         </ul>
                       )}
                     </li>
 
-                    <li className='group'><Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/NarxlarRoyxati">Narxlar Ro'yxati</Link></li>
+                    <li className='group'><Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/NarxlarRoyxati">Narxlar Ro'yxati</Link></li>
                     <li className="group relative flex justify-between items-center">
-                      <Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to='/KompaniyaHaqida'>Kompaniya haqida</Link>
+                      <Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to='/KompaniyaHaqida'>Kompaniya haqida</Link>
                       <button onClick={toggleKompaniyaDropdown} className="flex items-center space-x-2">
                         <span className="text-base font-bold bg-gray-200 px-2 py-1 rounded-full text-Mos-Purple">▼</span>
                       </button>
                       {isKompaniyaDropdownOpen && (
                         <ul className="absolute top-7 z-10 left-0 mt-2 py-4 px-5 w-full bg-white shadow-md shadow-Mos-Purple rounded-lg">
-                          <li><Link to="/Sertifikatlar" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Sertifikatlar</Link></li>
-                          <li><Link to="/Hamkorlar" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Hamkorlar</Link></li>
-                          <li><Link to="/Fotogalareya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Fotogalareya</Link></li>
-                          <li><Link to="/MutaxassislarDetails" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">MutaxassislarDetails</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Sertifikatlar" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Sertifikatlar</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Hamkorlar" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Hamkorlar</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Fotogalareya" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Fotogalareya</Link></li>
+                          <li><Link onClick={toggleMobileMenu} to="/Mutaxassislar" className="block px-4 py-2 rounded-lg hover:text-cyan-500 hover:bg-gray-100">Mutaxassislar</Link></li>
                         </ul>
                       )}
                     </li>
-                    <li className='group'><Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/birja">Birja</Link></li>
-                    <li className='group'><Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/Yangiliklar">Yangiliklar</Link></li>
-                    <li className='group'><Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/BizHaqimizdaSharxlar">Biz haqimizda sharhlar</Link></li>
-                    <li className='group'><Link className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/Kontaktlar">Kontaktlar</Link></li>
+                    <li className='group'><Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/birja">Birja</Link></li>
+                    <li className='group'><Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/Yangiliklar">Yangiliklar</Link></li>
+                    <li className='group'><Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/BizXaqimizdaSharxlar">Biz haqimizda sharhlar</Link></li>
+                    <li className='group'><Link onClick={toggleMobileMenu} className='group-hover:text-cyan-500 group-hover:border-b-2 group-hover:border-Mos-Purple' to="/Kontaktlar">Kontaktlar</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -244,16 +244,15 @@ const Header = () => {
         {/* header bottom */}
         <div className={`pb-7 text-white mt-3 w-full z-10`}>
 
-          <Link className='flex items-center navHiddenResp:hidden text-black' to='/'>
-            {/* <span className='h-[72px] w-[70px] py-5 px-3 rounded-full bg-[#EFEFEF] text-base font-medium text-gray-400 flex justify-center items-center mr-5'>LOGO</span> */}
+          <Link className='flex items-center navBirjaHiddenResp:hidden text-black' to='/'>
             <img className='h-[72px] w-[70px] rounded-full mr-4' src={MedicalCenterLogo} alt="MedicalCenterLogo" />
             <div>
-              <p className='text-2xl font-bold mb-0.5'>Mos Medical Center</p>
-              <p className='text-base font-normal'>Moskvadagi tibbiyot markazi</p>
-            </div>
+              <p className='text-xl navHiddenResp:text-2xl font-bold mb-0.5'>Mos Medical Center</p>
+              <p className='text-sm navHiddenResp:text-base font-normal'>Moskvadagi tibbiyot markazi</p>
+            </div>  
           </Link>
 
-          <div className='bg-Mos-Purple hidden navHiddenResp:flex items-center justify-between p-4 rounded-[30px]'>
+          <div className='bg-Mos-Purple hidden navBirjaHiddenResp:flex items-center justify-between p-4 rounded-[30px]'>
 
             {/* navigatsiya */}
             <nav>
@@ -296,7 +295,7 @@ const Header = () => {
 
                 </li>
 
-                <li className='hidden lg:block text-white font-semibold py-1.5 px-5 rounded-2xl border-[3px] border-transparent hover:border-white transition-all duration-300'>
+                <li className='hidden navBirjaHiddenResp:block text-white font-semibold py-1.5 px-5 rounded-2xl border-[3px] border-transparent hover:border-white transition-all duration-300'>
                   <Link to='/birja'>Birja</Link>
                 </li>
 
@@ -305,7 +304,7 @@ const Header = () => {
                 </li>
 
                 <li className='hidden bizhaqdaResp:block text-white font-semibold py-1.5 px-5 rounded-2xl border-[3px] border-transparent hover:border-white transition-all duration-300'>
-                  <Link to='/BizHaqimizdaSharxlar'>Biz haqimzda sharhlar</Link>
+                  <Link to='/BizXaqimizdaSharxlar'>Biz haqimzda sharhlar</Link>
                 </li>
 
                 <div className="relative group hidden md:block">
@@ -316,11 +315,11 @@ const Header = () => {
                     {/* Drop-down menyu */}
                     <div className="hidden w-60 group-hover:block absolute top-full bg-white shadow-lg px-2 pb-2 z-10 space-y-2 rounded-lg">
 
-                      <Link to="/birja" className="block lg:hidden rounded-lg hover:text-Mos-Purple text-black hover:bg-gray-100 px-4 py-2">Birja</Link>
+                      <Link to="/birja" className="block navBirjaHiddenResp:hidden rounded-lg hover:text-Mos-Purple text-black hover:bg-gray-100 px-4 py-2">Birja</Link>
 
                       <Link to="/Yangiliklar" className="block xl:hidden rounded-lg hover:text-Mos-Purple text-black hover:bg-gray-100 px-4 py-2">Yangiliklar</Link>
 
-                      <Link to="/BizHaqimizdaSharxlar" className="block bizhaqdaResp:hidden rounded-lg hover:text-Mos-Purple text-black hover:bg-gray-100 px-4 py-2">Biz haqimizda sharhlar</Link>
+                      <Link to="/BizXaqimizdaSharxlar" className="block bizhaqdaResp:hidden rounded-lg hover:text-Mos-Purple text-black hover:bg-gray-100 px-4 py-2">Biz haqimizda sharhlar</Link>
 
                       <Link to="/Kontaktlar" className="block rounded-lg hover:text-Mos-Purple text-black hover:bg-gray-100 px-4 py-2">Kontaktlar</Link>
                     </div>
@@ -344,14 +343,14 @@ const Header = () => {
       {OpenModal && (
         <div
           id="modal-overlay"
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center pl-3 modalResp:pl-0 mr-0 modalResp:pr-5 modalResp:justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center px-5 md:pl-0 mr-0 modalResp:pr-5 modalResp:justify-center z-50"
           onClick={handleClickOutside}
         >
           {/* Modal */}
           <form
             onSubmit={async (e) => {
               e.preventDefault();
-
+              closeModal();
               if (firstName && phone && isChecked) {
                 try {
                   const botToken = "7699128704:AAGNXZ_OoWRa8AW_xxAMdzeggVWgPzfWxvY";
@@ -359,10 +358,10 @@ const Header = () => {
                   const telegramAPI = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
                   const text = `
-                    🔔 Yangi Qo'ng'iroq Talabi:
+🔔 Yangi Qo'ng'iroq Talabi:
 
-                    👤 Ism: ${firstName}
-                    📞 Telefon: ${phone}
+👤 Ism: ${firstName}
+📞 Telefon: ${phone}
                     `;
 
                   const response = await fetch(telegramAPI, {
@@ -374,10 +373,8 @@ const Header = () => {
                       parse_mode: "Markdown",
                     }),
                   });
-
                   if (response.ok) {
                     alert("Murojaatingiz yuborildi!");
-                    closeModal();
                   } else {
                     const error = await response.json();
                     alert("Xatolik yuz berdi: " + (error.description || "Noma'lum xato."));
@@ -398,7 +395,7 @@ const Header = () => {
             </button>
 
             <h2 className="text-lg sm:text-xl md:text-2xl xl:text-4xl font-bold mb-2 lg:mb-4">Qo'ng'iroqni talab qiling</h2>
-            <p className="text-sm sm:text-base mb-5 sm:mb-10">
+            <p className="text-[10px] sm:text-base mb-3 sm:mb-10">
               Menejerimiz siz uchun qulay vaqtda siz bilan bog'lanadi
             </p>
 
@@ -409,7 +406,7 @@ const Header = () => {
                   type="text"
                   placeholder="Ismingiz"
                   value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
+                  onChange={(e) => setFirstName(e.target.value.trim())}
                   className="w-full border border-gray-300 rounded-xl p-2 lg:px-3 lg:py-5 focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
                   required
                 />
@@ -441,7 +438,7 @@ const Header = () => {
                   onChange={() => setIsChecked(!isChecked)}
                   className="mr-2"
                 />
-                <label htmlFor="userAgreement" className="text-sm lg:text-base">
+                <label htmlFor="userAgreement" className="text-[10px] lg:text-base">
                   <Link to='/FoydalanuvchiShartnomasi' className="underline cursor-pointer"><b>Men foydalanuvchi shartnomasini</b></Link> o'qib
                   chiqdim *
                 </label>
@@ -451,7 +448,7 @@ const Header = () => {
               <button
                 type="submit"
                 disabled={!firstName || !phone || !isChecked}
-                className={`w-24 md:w-36 mt-0 md:mt-7 rounded-xl text-base md:text-lg text-center text-white font-medium py-2 px-4 md:py-5 md:px-4 ${!firstName || !phone || !isChecked
+                className={`w-28 md:w-36 mt-0 md:mt-7 rounded-xl text-base md:text-lg text-center text-white font-medium py-2 px-4 md:py-5 md:px-4 ${!firstName || !phone || !isChecked
                   ? 'bg-gray-300 cursor-not-allowed'
                   : 'bg-purple-btn-color hover:opacity-80 transition-all duration-300'
                   }`}

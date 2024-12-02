@@ -22,9 +22,9 @@ const Footer = () => {
 
 
       <div className="w-full max-w-base mx-auto px-5 relative">
-      <button onClick={scrollToTop} className="absolute -top-8 right-10 rotate-90 h-[58px] px-5 rounded-2xl text-3xl font-bold  text-Mos-Purple bg-Mos-purple-light hover:bg-Mos-Purple hover:text-white transition-all duration-300">{prevBtn}</button>
+        <button onClick={scrollToTop} className="absolute -top-8 right-10 rotate-90 h-[58px] px-5 rounded-2xl text-3xl font-bold  text-Mos-Purple bg-Mos-purple-light hover:bg-Mos-Purple hover:text-white transition-all duration-300">{prevBtn}</button>
 
-        <div className='flex items-center justify-between py-[70px]'>
+        <div className='flex items-center justify-between pt-16 pb-9'>
 
           {/* footer left */}
           <div className='text-white/90 mr-5'>

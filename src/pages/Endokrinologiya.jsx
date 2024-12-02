@@ -1,21 +1,49 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Location from '../Location'
+
+import Endokrinologiya1 from '../img/Endokrinologiya1.avif'
+import Endokrinologiya2 from '../img/Endokrinologiya2.avif'
+import Endokrinologiya3 from '../img/Endokrinologiya3.avif'
+import Endokrinologiya4 from '../img/Endokrinologiya4.avif'
+import Endokrinologiya5 from '../img/Endokrinologiya5.avif'
+import Endokrinologiya6 from '../img/Endokrinologiya6.jpg'
 
 const Endokrinologiya = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
-      
+    }, [])
+
     return (
         <div className='py-7 xl:py-[62px]'>
 
             <div className="w-full max-w-base mx-auto px-5 navHiddenResp:px-7 lg:px-5">
                 <Location />
 
-                <h2 className='text-3xl md:[37px] lg:text[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Endokrinologiya</h2>
+                <h2 className='text-3xl md:text-[37px] lg:text-[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Endokrinologiya</h2>
 
-                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya2} alt="Endokrinologiya2 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya3} alt="Endokrinologiya3 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya5} alt="Endokrinologiya5 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya4} alt="Endokrinologiya4 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya6} alt="Endokrinologiya6 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya1} alt="Endokrinologiya1 image" />
+                    </div>
+                </div>
+
+                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-0 lg:mb-16'>
 
                     <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapiradigan va biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 

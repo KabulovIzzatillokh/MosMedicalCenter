@@ -1,7 +1,14 @@
 import React, { useEffect } from 'react'
 import Location from '../Location'
 
-const AsalKomssiya = () => {
+import AsalKomissiya1 from '../img/AsalKomissiya1.jpg'
+import AsalKomissiya2 from '../img/AsalKomissiya2.avif'
+import AsalKomissiya3 from '../img/AsalKomissiya3.jpg'
+import AsalKomissiya4 from '../img/AsalKomissiya4.avif'
+import AsalKomissiya5 from '../img/AsalKomissiya5.avif'
+import AsalKomissiya6 from '../img/AsalKomissiya6.jpg'
+
+const AsalKomissiya = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -13,9 +20,30 @@ const AsalKomssiya = () => {
             <div className="w-full max-w-base mx-auto px-5 navHiddenResp:px-7 lg:px-5">
                 <Location />
 
-                <h2 className='text-3xl md:[37px] lg:text[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>AsalKomissiya</h2>
+                <h2 className='text-3xl md:text-[37px] lg:text-[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>AsalKomissiya</h2>
 
-                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya1} alt="AsalKomissiya1 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya2} alt="AsalKomissiya2 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya3} alt="AsalKomissiya3 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya4} alt="AsalKomissiya4 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya5} alt="AsalKomissiya5 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya6} alt="AsalKomissiya6 image" />
+                    </div>
+                </div>
+
+                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-0 lg:mb-16'>
 
                     <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapiradigan va biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 
@@ -39,4 +67,4 @@ const AsalKomssiya = () => {
     )
 }
 
-export default AsalKomssiya
+export default AsalKomissiya

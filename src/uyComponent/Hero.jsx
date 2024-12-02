@@ -101,10 +101,10 @@ const Hero = () => {
                         <img className="hidden xl:block w-full h-full object-cover" src={heroImg1} alt="hero image" />
 
                         <div className="absolute left-0 navHiddenResp:left-10 md:max-w-[800px] xl:left-32 xl:max-w-[800px] xl:bg-white py-8 lg:py-16 px-6 lg:px-10 rounded-3xl text-center lg:text-left">
-                            <h1 className="text-3xl lg:text-4xl font-bold leading-tight lg:leading-[45px] mb-5 text-white xl:text-black/80">
+                            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight lg:leading-[45px] mb-5 text-white xl:text-black/80">
                                 Tashkilotlar va jismoniy shaxslar uchun tibbiy ko'rik
                             </h1>
-                            <p className="text-lg lg:text-2xl font-medium mb-6 lg:mb-10 text-white xl:text-black/80">
+                            <p className="text-base md:text-lg lg:text-2xl font-medium mb-6 lg:mb-10 text-white xl:text-black/80">
                                 Konsultatsiya, instrumental va laboratoriya diagnostikasi
                             </p>
 
@@ -120,10 +120,10 @@ const Hero = () => {
                         <img className="hidden xl:block w-full h-full object-cover" src={heroImg2} alt="hero image" />
 
                         <div className="absolute left-0 navHiddenResp:left-10 md:max-w-[800px] xl:left-32 xl:max-w-[800px] xl:bg-white py-8 lg:py-16 px-6 lg:px-10 rounded-3xl text-center lg:text-left">
-                            <h1 className="text-3xl lg:text-4xl font-bold leading-tight lg:leading-[45px] mb-5 text-white xl:text-black/80">
+                            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight lg:leading-[45px] mb-5 text-white xl:text-black/80">
                                 Qalqonsimon bezni kompleks tekshirish RUR 1950
                             </h1>
-                            <p className="text-lg lg:text-2xl font-medium mb-6 lg:mb-10 text-white xl:text-black/80">
+                            <p className="text-base md:text-lg lg:text-2xl font-medium mb-6 lg:mb-10 text-white xl:text-black/80">
                                 Qalqonsimon bezning ultratovush tekshiruvi gormon testlari bilan birgalikda
                             </p>
 
@@ -139,15 +139,15 @@ const Hero = () => {
                         <img className="hidden xl:block w-full h-full object-cover" src={heroImg3} alt="hero image" />
 
                         <div className="absolute left-0 navHiddenResp:left-10 md:max-w-[800px] xl:left-32 xl:max-w-[800px] xl:bg-white py-8 lg:py-16 px-6 lg:px-10 rounded-3xl text-center lg:text-left">
-                            <h1 className="text-3xl lg:text-4xl font-bold leading-tight lg:leading-[45px] mb-5 text-white xl:text-black/80">
+                            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight lg:leading-[45px] mb-5 text-white xl:text-black/80 line-clamp-3">
                                 Flebolog bilan maslahatlash + oyoq tomirlarining ultratovush tekshiruvi 2000 rubl
                             </h1>
-                            <p className="text-lg lg:text-2xl font-medium mb-6 lg:mb-10 text-white xl:text-black/80">
+                            <p className="text-base md:text-lg lg:text-2xl font-medium mb-6 lg:mb-10 text-white xl:text-black/80">
                                 Oyoqlarning arterial va venoz tomirlarining tuzilishi va holayini batafsil o'rganish, diagnostika, terapiya
                             </p>
 
                             <button onClick={openModal} className="medical-btn purple-btn text-lg lg:text-2xl">
-                                Konsultatsiya uchun ro'yxatdan o'ting
+                                Ro'yxatdan o'ting
                             </button>
 
                         </div>
@@ -158,69 +158,69 @@ const Hero = () => {
                 {OpenModal && (
                     <div
                         id="modal-overlay"
-                        className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+                        className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 px-8 lg:px-0"
                         onClick={handleClickOutside}
                     >
                         {/* Modal */}
                         <form
-                            className="relative w-[610px] py-7 px-14 bg-white text-black rounded-2xl shadow-lg"
+                            className="relative w-[350px] md:w-[610px] py-5 px-6 md:py-6 md:px-10 xl:p-14 bg-white rounded-2xl shadow-lg"
                             onClick={(e) => e.stopPropagation()}
                         >
                             {/* Chiqish tugmasi (X belgi) */}
                             <button
                                 onClick={closeModal}
-                                className="absolute top-5 right-7 font-bold text-3xl text-purple-btn-color hover:rotate-180 transition-all duration-300"
+                                className="absolute top-5 right-7 font-bold text-2xl lg:text-3xl text-purple-btn-color hover:rotate-180 transition-all duration-300"
                             >
                                 X
                             </button>
 
-                            <h2 className="text-4xl font-bold mb-4">Qo'ng'iroqni talab qiling</h2>
-                            <p className="text-base mb-3">
+                            <h2 className="mb-3 lg:mb-6 block text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-semibold">Qo'ng'iroq so'rovi</h2>
+                            <p className="text-sm lg:text-base mb-3">
                                 Menejerimiz siz uchun qulay vaqtda siz bilan bog'lanadi
                             </p>
 
                             <div className="flex flex-col">
                                 <div className="mb-6">
-                                    <label className="block text-lg font-semibold mb-2">Ismingiz:</label>
+                                    <label className="block mb-2 text-sm md:text-base lg:text-lg font-bold text-black/70">Ismingiz:</label>
                                     <input
                                         type="text"
                                         placeholder="Ismingiz"
                                         value={name}
-                                        onChange={(e) => setName(e.target.value)}
-                                        className="w-full border border-gray-300 rounded-xl px-3 py-5 focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
+                                        onChange={(e) => setName(e.target.value.trim())}
+                                        className="w-full border border-gray-300 rounded-xl px-3 py-2 lg:py-5  focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
                                         required
                                     />
                                     {!name && (
-                                        <p className="text-red-500 text-sm mt-1">Bu qator toʻldirilmagan</p>
+                                        <p className="text-red-500 text-xs ml-2 md:text-sm mt-1">Bu qator toʻldirilmagan</p>
                                     )}
                                 </div>
 
                                 <div className="mb-4">
-                                    <label className="block text-lg font-semibold mb-2">Telefon:</label>
+                                    <label className="block mb-2 text-sm md:text-base lg:text-lg font-bold text-black/70">Telefon:</label>
                                     <input
                                         type="number"
                                         placeholder="+ 998 __ (___) __ __"
                                         value={phone}
                                         onChange={(e) => setPhone(e.target.value)}
-                                        className="w-full border border-gray-300 rounded-xl px-3 py-5 focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
+                                        className="w-full border border-gray-300 rounded-xl px-3 py-2 lg:py-5 focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
                                         required
                                     />
                                     {!phone && (
-                                        <p className="text-red-500 text-sm mt-1">Bu qator toʻldirilmagan</p>
+                                        <p className="text-red-500 text-xs ml-2 md:text-sm mt-1">Bu qator toʻldirilmagan</p>
                                     )}
                                 </div>
 
                                 <div className="mb-4">
-                                    <label className="block text-lg font-semibold mb-2">Kirish maydoni:</label>
+                                    <label className="block mb-2 text-sm md:text-base lg:text-lg font-bold text-black/70">Kirish maydoni:</label>
                                     <textarea
                                         placeholder="Kirish maydoni"
                                         value={message}
-                                        onChange={(e) => setMessage(e.target.value)}
-                                        className="w-full border border-gray-300 rounded-xl px-3 py-5 focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
+                                        onChange={(e) => setMessage(e.target.value.trim())}
+                                        className="w-full border border-gray-300 rounded-xl px-3 py-2 lg:py-5 focus:outline-none focus:ring-1 focus:ring-Mos-Purple"
                                         required
                                     ></textarea>
                                     {!message && (
-                                        <p className="text-red-500 text-sm mt-1">Bu qator toʻldirilmagan</p>
+                                        <p className="text-red-500 text-xs ml-2 md:text-sm mt-1">Bu qator toʻldirilmagan</p>
                                     )}
                                 </div>
 
@@ -232,7 +232,7 @@ const Hero = () => {
                                         onChange={() => setIsChecked(!isChecked)}
                                         className="mr-2"
                                     />
-                                    <label htmlFor="userAgreement" className="text-base">
+                                    <label htmlFor="userAgreement" className="text-xs md:text-sm lg:text-base">
                                         <Link to='/FoydalanuvchiShartnomasi' className="underline cursor-pointer"><b>Men foydalanuvchi shartnomasini</b></Link> o'qib
                                         chiqdim *
                                     </label>
@@ -242,6 +242,7 @@ const Hero = () => {
                                 <button
                                     onClick={async (e) => {
                                         e.preventDefault();
+                                        closeModal();
                                         if (name && phone && message && isChecked) {
                                             try {
                                                 const botToken = "7699128704:AAGNXZ_OoWRa8AW_xxAMdzeggVWgPzfWxvY";
@@ -267,7 +268,6 @@ const Hero = () => {
 
                                                 if (response.ok) {
                                                     alert("Xabaringiz yuborildi!");
-                                                    closeModal();
                                                 } else {
                                                     const error = await response.json();
                                                     alert("Xatolik yuz berdi: " + (error.description || "Noma'lum xato."));
@@ -278,7 +278,7 @@ const Hero = () => {
                                         }
                                     }}
                                     disabled={!name || !phone || !message || !isChecked}
-                                    className={`w-36 mt-7 rounded-xl text-lg text-center text-white font-medium py-5 px-4 ${!name || !phone || !message || !isChecked
+                                    className={`w-28 md:w-36 mt-0 md:mt-7 rounded-xl text-base md:text-lg text-center text-white font-medium py-2 px-4 md:py-5 md:px-4 ${!name || !phone || !message || !isChecked
                                         ? 'bg-gray-300 cursor-not-allowed'
                                         : 'bg-purple-btn-color hover:opacity-80 transition-all duration-300'
                                         }`}

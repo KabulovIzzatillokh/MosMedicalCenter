@@ -1,11 +1,18 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Location from '../Location'
+
+import Dermatologiya1 from '../img/Dermatologiya1.avif'
+import Dermatologiya2 from '../img/Dermatologiya2.avif'
+import Dermatologiya3 from '../img/Dermatologiya3.avif'
+import Dermatologiya4 from '../img/Dermatologiya4.jpg'
+import Dermatologiya5 from '../img/Dermatologiya5.jpg'
+import Dermatologiya6 from '../img/Dermatologiya6.jpg'
 
 const Dermatologiya = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
     return (
         <div className='py-7 xl:py-[62px]'>
@@ -13,9 +20,30 @@ const Dermatologiya = () => {
             <div className="w-full max-w-base mx-auto px-5 navHiddenResp:px-7 lg:px-5">
                 <Location />
 
-                <h2 className='text-3xl md:[37px] lg:text[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Dermatologiya</h2>
+                <h2 className='text-3xl md:text-[37px] lg:text-[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Dermatologiya</h2>
 
-                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya1} alt="Dermatologiya1 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya2} alt="Dermatologiya2 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya3} alt="Dermatologiya3 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya4} alt="Dermatologiya4 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya5} alt="Dermatologiya5 image" />
+                    </div>
+                    <div className='overflow-hidden rounded-lg'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya6} alt="Dermatologiya6 image" />
+                    </div>
+                </div>
+
+                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-0 lg:mb-16'>
 
                     <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapiradigan va biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 

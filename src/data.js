@@ -15,6 +15,22 @@ import Eleonora from './img/Eleonora.webp'
 import SotibOlish from './img/SotibOlish.webp'
 import Mavsumiy from './img/Mavsumiy.webp'
 import Ikkinchisi from './img/Ikkinchisi.webp'
+import birja4 from './img/birja4.avif'
+import birja5 from './img/birja5.avif'
+import birja6 from './img/birja6.avif'
+import birja7 from './img/birja7.webp'
+import birja8 from './img/birja8.webp'
+import birja9 from './img/birja9.webp'
+
+// news 
+// import Allergiya from './img/Allergiya.webp';
+// import TezPishirish from './img/TezPishirish.webp';
+import yangiliklar3 from './img/yangiliklar3.webp';
+import yangiliklar4 from './img/yangiliklar4.webp';
+import yangiliklar5 from './img/yangiliklar5.webp';
+import yangiliklar6 from './img/yangiliklar6.jpg';
+import yangiliklar7 from './img/yangiliklar7.jpg';
+import yangiliklar8 from './img/yangiliklar8.jpg';
 
 // Narxlar royxati 
 export const NarxlarRoyxatiData = [
@@ -232,30 +248,138 @@ export const BirjalarData = [
         id: 1,
         img: SotibOlish,
         name: 'BlackFriday',
-        data: '26 noyabrdan 9 dekabrgacha',
-        aksiya: "Sotib olish bilan bepul sovg'a",
-        text: "Mahsulot sotib olganingizda yoki buyurtmangiz ma'lum miqdorga yetganda bepul sovg'a oling.",
-        text1: 'Mavsumga tegishli tovarlarga chegirmalar taqdim etamiz.',
+        data: '2024-11-20',
+        aksiya: "Cheklangan vaqt davomida katta chegirmalar!",
+        text: "Black Friday aksiyasi doirasida mahsulotlarimizni katta chegirmalar bilan xarid qilishingiz mumkin. Bundan tashqari, ma'lum miqdorda xarid qilganingizda bepul sovg'alar va qo'shimcha chegirmalarga ega bo'lasiz. O'tkazib yubormang, bu imkoniyat bir yil davomida faqat bir marta bo'ladi!",
         btn: 'Batafsil',
     },
     {
         id: 2,
         img: Mavsumiy,
         name: 'Gifts',
-        data: '26 noyabrdan 9 dekabrgacha',
-        aksiya: "Mavsumiy mahsulotlarga chegirma",
-        text: "Joriy mavsumga tegishli tovarlarga chegirmalar, yozda yozgi tovarlarga chegirmalar taqdim etamiz." ,
-        text1: 'Bitta aniq mahsulotni sotib olayotganda, ikkinchi mahsulotni chegirma bilan sotib olishingiz mumkin.',
+        data: '2024-11-20',
+        aksiya: "Mavsumiy mahsulotlarga maxsus chegirmalar!",
+        text: "Yozgi va qishki mahsulotlarimizga alohida chegirmalar mavjud. Har bir mavsum uchun maxsus takliflar tayyorladik: yozda salqin ichimliklar va plyaj buyumlari, qishda esa issiq kiyimlar va sovuqdan himoya qiluvchi mahsulotlarga chegirmalar amal qiladi. Bu sizga nafaqat mablag' tejashga, balki yuqori sifatli mahsulotlardan bahramand bo'lishga imkon beradi.",
         btn: 'Batafsil',
     },
     {
         id: 3,
         img: Ikkinchisi,
         name: 'YearSale',
-        data: '26 noyabrdan 9 dekabrgacha',
-        aksiya: "Ikkinchisini chegirma bilan oling",
-        text: "Bitta aniq mahsulotni sotib olayotganda, ikkinchi mahsulotni chegirma bilan sotib olishingiz mumkin.",
-        text1: " Buyurtmangiz ma'lum miqdorga yetganda bepul sovg'a oling.",
+        data: '2024-11-20',
+        aksiya: "Bitta mahsulotni xarid qiling va chegirma oling!",
+        text: "Ushbu aksiya sizga juda foydali taklif taqdim etadi: birinchi mahsulotni xarid qilganingizda, ikkinchi mahsulotni juda arzon narxda xarid qilish imkoniyati beriladi. Bu taklif maxsus katalogdagi mahsulotlarga tegishli bo'lib, sifat va narx nisbati bo'yicha mijozlarimizni xursand qiladi. Tezroq foydalanganingiz ma'qul!",
         btn: 'Batafsil',
-    }
-]
+    },
+    {
+        id: 4,
+        img: birja4,
+        data: '2024-11-20',
+        aksiya: 'Innovatsion yechimlar va maxsus imkoniyatlar!',
+        text: "Birja 4 mijozlariga moliyaviy bozordagi eng ilg'or xizmatlarni taklif qiladi. Ularning innovatsion yondashuvi tufayli siz har bir jarayonni qulay va tezkor amalga oshirishingiz mumkin. Maxsus aksiyalar, bonus dasturlari va chegirmalar doimiy ravishda yangilanib boradi.",
+        btn: 'Batafsil',
+        name: 'Medicine',
+    },
+    {
+        id: 5,
+        img: birja5,
+        data: '2024-11-22',
+        aksiya: 'Foydali shartnomalar va sodiqlik dasturlari!',
+        text: "Ushbu birja foydalanuvchilariga eksklyuziv imkoniyatlar taqdim etadi: har bir yangi mijoz uchun sovg'alar, uzoq muddatli foydalanuvchilar uchun esa sodiqlik dasturlari orqali maxsus bonuslar. Shuningdek, yangi xizmat turlariga kashfiyotlar kiritish orqali sizning ehtiyojlaringizni yanada yaxshiroq qondiradi.",
+        btn: 'Batafsil',
+        name: 'Medicine',
+    },
+    {
+        id: 6,
+        img: birja6,
+        data: '2024-11-23',
+        aksiya: 'Keng qamrovli xizmatlar va mijozlarga qulaylik!',
+        text: "Birja 6 mijozlari uchun keng qamrovli moliyaviy xizmatlarni taqdim etadi. Bizning asosiy maqsadimiz – har bir mijozga tezkor va ishonchli xizmat ko'rsatishdir. Eksklyuziv aksiya va chegirmalar har bir foydalanuvchi ehtiyojiga moslashtirilgan. Bizning xizmatlardan foydalanganingizda, o'zingizni maxsus his qilasiz.",
+        btn: 'Batafsil',
+        name: 'Service for health',
+    },
+    {
+        id: 7,
+        img: birja7,
+        data: '2024-11-25',
+        aksiya: 'Tajribali ekspertlar va yuqori sifatli xizmatlar!',
+        text: "Birja 7 boshqa birjalardan o'zining tajribali ekspertlari va mukammal xizmat sifati bilan ajralib turadi. Siz moliyaviy bozorda muvaffaqiyatli qadam tashlashingiz uchun barcha zarur vositalar va ko'makni topasiz. Maxsus aksiyalar va chegirmalar mijozlar ehtiyojlariga mos ravishda taqdim etiladi.",
+        btn: 'Batafsil',
+        name: 'Experience',
+    },
+    {
+        id: 8,
+        img: birja8,
+        data: '2024-11-26',
+        aksiya: 'Yangi avlod moliyaviy xizmatlar mahsulotlari!',
+        text: "Birja 8 – bu sizning moliyaviy muvaffaqiyatingiz yo'lidagi ishonchli hamkoringiz. Yangi avlod texnologiyalari asosida ishlab chiqilgan xizmatlarimiz foydalanuvchilarning har bir ehtiyojini qondirishga qaratilgan. Bu birja yuqori sifatli xizmatlar va innovatsion yondashuv bilan ajralib turadi. Maxsus aksiyalardan foydalanib, moliyaviy erkinlikka erishing.",
+        btn: 'Batafsil',
+        name: 'New products',
+    },
+    {
+        id: 9,
+        img: birja9,
+        data: '2024-11-27',
+        aksiya: 'Investitsiyalar uchun ishonchli hamkor!',
+        text: "Birja 9 investitsiya qilish uchun keng imkoniyatlar taqdim etadi. Yuqori daromadli loyihalar, barqaror moliyaviy yechimlar va tajribali mutaxassislar yordami – bularning barchasi siz uchun taqdim etiladi. Maxsus aksiyalar va chegirmalar yordamida birja xizmatlaridan yanada foydali shartlar asosida foydalanishingiz mumkin.",
+        btn: 'Batafsil',
+        name: 'Investment partners',
+    },
+];
+
+export const newsData = [
+    {
+        id: 3,
+        date: '2024-01-06',
+        author: 'Pauchkova Valentina',
+        title: 'Tez pishirish uchun mikroto\'lqinli pechlar',
+        description:
+            'Qulay va innovatsion texnologiyalar tufayli ushbu qurilmalar pishirish jarayonini sezilarli darajada tezlashtirishga imkon beradi. Ular ko‘plab funktsiyalarni taklif qiladi va ovqat tayyorlashni qulay qiladi. Zamonaviy uy sharoitida mikroto‘lqinli pechlarning o‘rni beqiyos.',
+        image: yangiliklar3,
+    },
+    {
+        id: 4,
+        date: '2024-02-18',
+        author: 'Borisov Valentin',
+        title: 'Allergiyaga chalinganlar uchun eng yaxshi changyutgichni qanday tanlash mumkin',
+        description:
+            'Chang allergiyasi - bu noqulaylik tug‘diradigan va turli alomatlarga olib keladigan keng tarqalgan muammo. To‘g‘ri changyutgich tanlash allergenlarni samarali bartaraf etishga yordam beradi. Ushbu maqolada eng mos variantlarni tanlash bo‘yicha foydali maslahatlar berilgan.',
+        image: yangiliklar4,
+    },
+    {
+        id: 5,
+        date: '2024-09-27',
+        author: 'Pauchkova Valentina',
+        title: 'Tez pishirish uchun mikroto\'lqinli pechlar',
+        description:
+            'Har bir daqiqa muhim bo‘lgan bugungi tezkor hayotda mikroto‘lqinli pechlar vaqtni tejash uchun ajralmas vositadir. Ular turli xil ovqatlarni bir necha daqiqada tayyorlash imkoniyatini taqdim etadi. Ushbu qurilmalar nafaqat qulay, balki energiyani tejashga ham yordam beradi.',
+        image: yangiliklar5,
+    },
+    {
+        id: 6,
+        date: '2024-10-11',
+        author: 'Pauchkova Valentina',
+        title: 'Tez pishirish uchun mikroto\'lqinli pechlar',
+        description:
+            'Mikroto‘lqinli pechlar zamonaviy texnologiyalar asosida ishlab chiqarilib, pishirish jarayonini tezlashtiradi. Ular bir necha bosqichli dasturlar bilan qulaylik yaratadi va ovqatning mazali tayyorlanishini ta’minlaydi. Hayot sifatingizni oshirish uchun ushbu qurilmalar muhim vosita bo‘lishi mumkin.',
+        image: yangiliklar6,
+    },
+    {
+        id: 7,
+        date: '2024-04-18',
+        author: 'Pauchkova Valentina',
+        title: 'Tez pishirish uchun mikroto\'lqinli pechlar',
+        description:
+            'Zamonaviy mikroto‘lqinli pechlar vaqtingizni tejash uchun ideal tanlovdir. Ular nafaqat ovqatni tez pishirishga, balki mazali va bir xil haroratda tayyorlashga yordam beradi. Oila a’zolaringizni xursand qilish uchun ushbu texnologiyani qo‘llang.',
+        image: yangiliklar7,
+    },
+    {
+        id: 8,
+        date: '2024-05-18',
+        author: 'Pauchkova Valentina',
+        title: 'Tez pishirish uchun mikroto\'lqinli pechlar',
+        description:
+            'Har bir kishi uchun qulay mikroto‘lqinli pechlar oddiy ovqat pishirish jarayonini inqilobiy o‘zgartirdi. Ularning zamonaviy modellari ko‘plab imkoniyatlarni, shu jumladan avtomatik pishirish rejimlarini taklif etadi. Hayotingizni yanada qulay qilish uchun ushbu qurilmadan foydalaning.',
+        image: yangiliklar8,
+    },
+];

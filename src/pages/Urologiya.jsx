@@ -1,21 +1,49 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Location from '../Location'
+
+import Urologiya1 from '../img/Urologiya1.avif'
+import Urologiya2 from '../img/Urologiya2.avif'
+import Urologiya3 from '../img/Urologiya3.jpg'
+import Urologiya4 from '../img/Urologiya4.avif'
+import Urologiya5 from '../img/Urologiya5.jpg'
+import Urologiya6 from '../img/Urologiya6.avif'
 
 const Urologiya = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
-      
+    }, [])
+
     return (
         <div className='py-7 xl:py-[62px]'>
 
             <div className="w-full max-w-base mx-auto px-5 navHiddenResp:px-7 lg:px-5">
-            <Location />
+                <Location />
 
-                <h2 className='text-3xl md:[37px] lg:text[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Urologiya</h2>
+                <h2 className='text-3xl md:text-[37px] lg:text-[45px] xl:text-[50px] font-semibold mb-8 navHiddenResp:mb-10 lg:mb-[50px]'>Urologiya</h2>
 
-                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya2} alt="Urologiya2 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya3} alt="Urologiya3 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya4} alt="Urologiya4 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya1} alt="Urologiya1 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya5} alt="Urologiya5 image" />
+                    </div>
+                    <div className='rounded-lg overflow-hidden'>
+                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya6} alt="Urologiya6 image" />
+                    </div>
+                </div>
+
+                <div className='space-y-6 px-1 navHiddenResp:px-2 xl:px-0 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-0 lg:mb-16'>
 
                     <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapiradigan va biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 

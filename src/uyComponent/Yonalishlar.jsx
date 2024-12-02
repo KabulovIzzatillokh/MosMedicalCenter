@@ -22,7 +22,7 @@ const Yonalishlar = () => {
   }, [])
 
   return (
-    <div className='xl:py-[62px]'>
+    <div className='py-8 xl:py-[62px]'>
 
       {/* yonalinshlar */}
       <div>

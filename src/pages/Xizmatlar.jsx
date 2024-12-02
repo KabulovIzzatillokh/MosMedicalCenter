@@ -43,16 +43,16 @@ const Xizmatlar = () => {
 
           <div className='w-full max-w-[600px] space-y-5 navHiddenResp:space-y-9 xl:space-y-14 text-white/95 text-center navHiddenResp:text-left'>
 
-            <h1 className='text-4xl xl:text-5xl font-semibold'>Klinika xizmatlari haqida.</h1>
+            <h1 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold'>Klinika xizmatlari haqida.</h1>
 
-            <p className='text-lg navHiddenResp:xl xl:text-2xl font-medium navHiddenResp:leading-7 xl:leading-10'><span className='inline-block text-xl navHiddenResp:text-3xl mr-2 text-white'>Mos-Medical-Center</span> klinikamizning xizmatlari darajasi dunyo bo'yicha top 17 ga yetti. Shuningdek bizning shifoxanaga kelgan be'morlar ham xalovat topibdi, hayot ko'satkichi 56% bo'lgan be'morlar ham oyoqqa turib ketmoqda</p>
+            <p className='text-base md:text-lg navHiddenResp:xl xl:text-2xl font-medium navHiddenResp:leading-7 xl:leading-10 line-clamp-6'><span className='inline-block text-lg lg:text-xl navHiddenResp:text-3xl mr-2 text-white'>Mos-Medical-Center</span> klinikamizning xizmatlari darajasi dunyo bo'yicha top 17 ga yetti. Shuningdek bizning shifoxanaga kelgan be'morlar ham xalovat topibdi, hayot ko'satkichi 56% bo'lgan be'morlar ham oyoqqa turib ketmoqda</p>
 
           </div>
 
         </div>
 
         {/* text content */}
-        <div className='space-y-6 px-2 navHiddenResp:px-5 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16'>
+        <div className='space-y-6 px-2 navHiddenResp:px-5 text-md navHiddenResp:lg xl:text-xl font-medium leading-6 navHiddenResp:leading-7 text-black/70 mb-16 '>
 
           <p>Ushbu blokda mahsulot/xizmatlaringiz tavsifi, taklif etilayotgan mahsulotlarning xarakteristikalari haqida gapirib, biznesingizning vazifalariga mos keladigan har qanday qulay katalog tuzilmasini yaratishni o'z ichiga olgan to'liq katalogni joylashtirishni tavsiya qilamiz.</p>
 
