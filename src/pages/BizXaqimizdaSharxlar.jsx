@@ -82,7 +82,7 @@ const BizXaqimizdaSharxlar = () => {
     };
 
     return (
-        <div className="py-[60px]">
+        <div className="py-5 lg:py-[60px]">
             <div className="w-full max-w-base mx-auto px-5">
                 <Location />
 

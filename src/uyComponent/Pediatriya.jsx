@@ -9,7 +9,7 @@ const Pediatriya = () => {
       }, [])
 
     return (
-        <div className='py-[60px]'>
+        <div className='py-5 lg:py-[60px]'>
             <h2 className='text-[50px] xl:text-[61px] font-semibold mb-3 xl:mb-8 ml-2'>Pediatriya</h2>
 
             <div className="flex-col xl:relative xl:flex justify-center items-center">

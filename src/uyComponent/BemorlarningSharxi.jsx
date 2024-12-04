@@ -32,7 +32,7 @@ const BemorlarningSharxi = () => {
       }, [])
 
     return (
-        <div className='py-[60px] relative Hero'>
+        <div className='py-5 lg:py-[60px] relative Hero'>
             <h2 className='text-[40px] leading-10 xl:leading-none xl:text-[61px] font-semibold mb-8'>Bemorlarning sharhlari</h2>
 
             <Swiper
