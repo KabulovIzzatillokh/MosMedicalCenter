@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // import axios from 'axios';
 
-import MedicalCenterLogo from '../img/MedicalCenterLogo.webp'
+import MedicalCenterLogo from '../img/medicalCenterLogo.webp'
 import LocationImage from '../img/locationImg.png';
 import borderV from '../img/borderV.png';
 import telegramIcon from '../img/telegramIcon.png';
