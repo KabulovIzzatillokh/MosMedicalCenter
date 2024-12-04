@@ -18,7 +18,7 @@ import Ikkinchisi from './img/Ikkinchisi.webp'
 import birja4 from './img/birja4.avif'
 import birja5 from './img/birja5.avif'
 import birja6 from './img/birja6.avif'
-import birja7 from './img/birja7.webp'
+import birja7 from './img/Birja7.webp'
 import birja8 from './img/birja8.webp'
 import birja9 from './img/birja9.webp'
 
