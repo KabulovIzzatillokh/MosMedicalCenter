@@ -27,7 +27,7 @@ const Jarrohlik = () => {
                         <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Jarrohlik1} alt="Jarrohlik1 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Jarrohlik2} alt="Jarrohlik2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Jarrohlik2} alt="Jarrohlik2 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
                         <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Jarrohlik3} alt="Jarrohlik3 image" />

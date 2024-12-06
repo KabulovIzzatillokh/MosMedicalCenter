@@ -24,22 +24,22 @@ const Ultratovush = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush1} alt="Ultratovush1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush1} alt="Ultratovush1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush2} alt="Ultratovush2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush2} alt="Ultratovush2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush3} alt="Ultratovush3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush3} alt="Ultratovush3 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush4} alt="Ultratovush4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush4} alt="Ultratovush4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush5} alt="Ultratovush5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush5} alt="Ultratovush5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush6} alt="Ultratovush6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Ultratovush6} alt="Ultratovush6 image" />
                     </div>
                 </div>
 

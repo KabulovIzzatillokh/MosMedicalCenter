@@ -24,22 +24,22 @@ const Funktsional = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Funktsional1} alt="Funktsional1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Funktsional1} alt="Funktsional1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Funktsional2} alt="Funktsional2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Funktsional2} alt="Funktsional2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Funktsional3} alt="Funktsional3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Funktsional3} alt="Funktsional3 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Funktsional4} alt="Funktsional4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Funktsional4} alt="Funktsional4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Funktsional5} alt="Funktsional5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Funktsional5} alt="Funktsional5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Funktsional6} alt="Funktsional6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Funktsional6} alt="Funktsional6 image" />
                     </div>
                 </div>
 

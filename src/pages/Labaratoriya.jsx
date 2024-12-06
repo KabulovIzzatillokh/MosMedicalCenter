@@ -24,22 +24,22 @@ const Labaratoriya = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya1} alt="Labaratoriya1 image" />
+                        <img className='object-cover w-[444px] h-[297px] max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya1} alt="Labaratoriya1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya2} alt="Labaratoriya2 image" />
+                        <img className='object-cover w-[444px] h-[297px] max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya2} alt="Labaratoriya2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya3} alt="Labaratoriya3 image" />
+                        <img className='object-cover w-[444px] h-[297px] max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya3} alt="Labaratoriya3 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya4} alt="Labaratoriya4 image" />
+                        <img className='object-cover w-[444px] h-[297px] max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya4} alt="Labaratoriya4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya5} alt="Labaratoriya5 image" />
+                        <img className='object-cover w-[444px] h-[297px] max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya5} alt="Labaratoriya5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya6} alt="Labaratoriya6 image" />
+                        <img className='object-cover w-[444px] h-[297px] max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={Labaratoriya6} alt="Labaratoriya6 image" />
                     </div>
                 </div>
 

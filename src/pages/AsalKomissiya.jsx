@@ -24,22 +24,22 @@ const AsalKomissiya = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img width='444' height='297' className='object-cover hover:scale-110 transition-all duration-300' src={AsalKomissiya1} alt="AsalKomissiya1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya1} alt="AsalKomissiya1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img width='444' height='297' className='object-cover hover:scale-110 transition-all duration-300' src={AsalKomissiya2} alt="AsalKomissiya2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya2} alt="AsalKomissiya2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img width='444' height='297' className='object-cover hover:scale-110 transition-all duration-300' src={AsalKomissiya3} alt="AsalKomissiya3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya3} alt="AsalKomissiya3 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img width='444' height='297' className='object-cover hover:scale-110 transition-all duration-300' src={AsalKomissiya4} alt="AsalKomissiya4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya4} alt="AsalKomissiya4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img width='444' height='297' className='object-cover hover:scale-110 transition-all duration-300' src={AsalKomissiya5} alt="AsalKomissiya5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya5} alt="AsalKomissiya5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img width='444' height='297' className='object-cover hover:scale-110 transition-all duration-300' src={AsalKomissiya6} alt="AsalKomissiya6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={AsalKomissiya6} alt="AsalKomissiya6 image" />
                     </div>
                 </div>
 

@@ -24,22 +24,22 @@ const Dermatologiya = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya1} alt="Dermatologiya1 image" />
+                        <img className='object-coverw-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Dermatologiya1} alt="Dermatologiya1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya2} alt="Dermatologiya2 image" />
+                        <img className='object-coverw-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Dermatologiya2} alt="Dermatologiya2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya3} alt="Dermatologiya3 image" />
+                        <img className='object-coverw-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Dermatologiya3} alt="Dermatologiya3 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya4} alt="Dermatologiya4 image" />
+                        <img className='object-coverw-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Dermatologiya4} alt="Dermatologiya4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya5} alt="Dermatologiya5 image" />
+                        <img className='object-coverw-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Dermatologiya5} alt="Dermatologiya5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Dermatologiya6} alt="Dermatologiya6 image" />
+                        <img className='object-coverw-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Dermatologiya6} alt="Dermatologiya6 image" />
                     </div>
                 </div>
 

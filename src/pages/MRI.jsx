@@ -24,22 +24,22 @@ const MRI = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI1} alt="MRI1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={MRI1} alt="MRI1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI2} alt="MRI2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={MRI2} alt="MRI2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI3} alt="MRI3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={MRI3} alt="MRI3 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI4} alt="MRI4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={MRI4} alt="MRI4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI5} alt="MRI5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={MRI5} alt="MRI5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full max-w-[444px] max-h-[297px] hover:scale-110 transition-all duration-300' src={MRI6} alt="MRI6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={MRI6} alt="MRI6 image" />
                     </div>
                 </div>
 

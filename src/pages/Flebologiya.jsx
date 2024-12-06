@@ -24,22 +24,22 @@ const Flebologiya = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Flebologiya1} alt="Flebologiya1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Flebologiya1} alt="Flebologiya1 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Flebologiya2} alt="Flebologiya2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Flebologiya2} alt="Flebologiya2 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Flebologiya4} alt="Flebologiya4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Flebologiya4} alt="Flebologiya4 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Flebologiya5} alt="Flebologiya5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Flebologiya5} alt="Flebologiya5 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Flebologiya6} alt="Flebologiya6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Flebologiya6} alt="Flebologiya6 image" />
                     </div>
                     <div className='overflow-hidden rounded-lg'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Flebologiya3} alt="Flebologiya3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Flebologiya3} alt="Flebologiya3 image" />
                     </div>
                 </div>
 

@@ -24,22 +24,22 @@ const Endokrinologiya = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya2} alt="Endokrinologiya2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Endokrinologiya2} alt="Endokrinologiya2 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya3} alt="Endokrinologiya3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Endokrinologiya3} alt="Endokrinologiya3 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya5} alt="Endokrinologiya5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Endokrinologiya5} alt="Endokrinologiya5 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya4} alt="Endokrinologiya4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Endokrinologiya4} alt="Endokrinologiya4 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya6} alt="Endokrinologiya6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Endokrinologiya6} alt="Endokrinologiya6 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Endokrinologiya1} alt="Endokrinologiya1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Endokrinologiya1} alt="Endokrinologiya1 image" />
                     </div>
                 </div>
 

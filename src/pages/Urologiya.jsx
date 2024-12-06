@@ -24,22 +24,22 @@ const Urologiya = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 mb-6 lg:mb-10'>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya2} alt="Urologiya2 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Urologiya2} alt="Urologiya2 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya3} alt="Urologiya3 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Urologiya3} alt="Urologiya3 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya4} alt="Urologiya4 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Urologiya4} alt="Urologiya4 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya1} alt="Urologiya1 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Urologiya1} alt="Urologiya1 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya5} alt="Urologiya5 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Urologiya5} alt="Urologiya5 image" />
                     </div>
                     <div className='rounded-lg overflow-hidden'>
-                        <img className='object-cover w-full h-full hover:scale-110 transition-all duration-300' src={Urologiya6} alt="Urologiya6 image" />
+                        <img className='object-cover w-[444px] h-[297px] hover:scale-110 transition-all duration-300' src={Urologiya6} alt="Urologiya6 image" />
                     </div>
                 </div>
 
